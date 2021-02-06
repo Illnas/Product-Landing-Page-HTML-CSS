@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Product Landing Page</title>
+  </head>
+
+  <body>
+    <header id="header">
+      <img id="header-img" src="img/logo.png" alt="logo" />
+      <nav id="nav-bar">
+        <a href="#intro" class="nav-link">Introduction</a>
+        <a href="#trailer" class="nav-link">Official Trailer</a>
+        <a href="#products" class="nav-link">Products</a>
+        <a href="#contact" class="nav-link">Contacts</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="intro">
+        <h2>This is Genshin Impact!</h2>
+        <p>
+          Genshin Impact is an open-world action role-playing game developed and
+          published by miHoYo. The game features a fantasy open-world
+          environment and action-based battle system using elemental magic and
+          character-switching, and uses gacha game monetization for players to
+          obtain new characters, weapons, and other resources. The game is
+          online-only and features a limited multiplayer mode allowing up to
+          four players to play together. It was released for Microsoft Windows,
+          PlayStation 4, Android and iOS on September 28, 2020. Genshin Impact
+          is also planned to release on Nintendo Switch and PlayStation 5;
+          PlayStation 5 backward compatibility with the PlayStation 4 version
+          was added on November 11, 2020.
+        </p>
+        <p>
+          Genshin Impact takes place in the fantasy world of Teyvat, which is
+          home to seven distinct nations, each of which is tied to an element
+          and ruled by a god associated with it. The story follows a twin,
+          referred to as the Traveler, who has traveled across many worlds with
+          their twin but has become separated from them by an unknown god in
+          Teyvat. The Traveler travels across Teyvat in search of the lost
+          sibling with their companion Paimon and becomes involved in the
+          affairs of the other nations, gods, and the world.
+        </p>
+      </section>
+
+      <section id="trailer">
+        <h2>Official Trailer</h2>
+        <iframe
+          width="560"
+          height="315"
+          id="video"
+          src="https://www.youtube.com/embed/TAlKhARUcoY"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <section id="products">
+        <h2>
+          One of many products that Genshin Impact offers to it's players!
+        </h2>
+
+        <div class="product-content">
+          <div id="first">
+            <div class="image">
+              <img src="img/product-1.jfif" alt="first product" />
+            </div>
+            <div class="content">
+              <h2>This is first item</h2>
+              <ul>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+              </ul>
+              <h2>400$</h2>
+            </div>
+          </div>
+          <div id="second">
+            <div class="image">
+              <img src="img/product-2.jfif" alt="second product" />
+            </div>
+            <div class="content">
+              <h2>This is second item</h2>
+              <ul>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+              </ul>
+              <h2>200$</h2>
+            </div>
+          </div>
+          <div id="third">
+            <div class="image">
+              <img src="img/product-3.jfif" alt="third product" />
+            </div>
+            <div class="content">
+              <h2>This is third item</h2>
+              <ul>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+                <li>Lorem Ipsum</li>
+              </ul>
+              <h2>25$</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer id="contact">
+          <h2>For more news, subscribe to newsletter!</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input type="email" id="email" placeholder="Email" name="email" />
+          <input type="submit" id="submit" value="Subscribe for more" />
+        </form>
+      </footer>
+    </main>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
